@@ -31,12 +31,12 @@
 /* Hero section */
 .hero_section {
     display: grid;
-    grid-template-columns: 1.5fr 2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-items: center;
     background-color: #1F2937;
     color: white;
-    padding: 30px;
+    padding: 20px;
     font-family: Arial, sans-serif;
 }
 
@@ -44,6 +44,7 @@
     color: #f9faf8;
     font-weight: 700;
     font-size: 40px;
+    
 }
 
 .hero_section button {
@@ -57,4 +58,16 @@
 }
 .hero_section button:hover {
     background-color: #2563EB; /* Darker blue on hover */
+}
+
+.hero_intro {
+    margin-left: 40px;
+}
+
+.hero_img {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 30px;
+
 }
