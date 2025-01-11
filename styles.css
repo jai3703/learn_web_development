@@ -1,55 +1,28 @@
-/* Reset Default Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: aliceblue;
-}
-
 /* Navigation Bar */
 .nav_bar {
-    background-color: #1F2937;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 equal columns */
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 5px;
-    height: 20px;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+    font-family: Arial, sans-serif;
 }
 
-/* Navigation Bar Items */
-.nav_bar div {
+.nav_logo {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    gap: 10px;
+}
+.nav_logo img {
+    height: 25px; /* Adjust height based on your design */
+    width: auto; /* Maintain aspect ratio */
+    margin-left: 20px;
 }
 
-/* Logo Styling */
-.logo {
-    width: 20px; /* Set desired width */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: contain; /* Prevent distortion */
-    margin-right: 10px; /* Space between logo and text */
-}
-
-/* Header Section */
-.header {
-    background-color: #1F2937;
-    height: 100px; /* Placeholder height */
-}
-
-/* Main Section */
-.main_section {
-    background-color: wheat;
-    padding: 20px;
-}
-
-/* Links Styling */
-a {
+.nav_links a {
     color: white;
     text-decoration: none;
-}
-
-/* h1 Example */
-h1 {
-    color: white;
+    margin-left: 20px;
+    font-size: 0.9rem;
 }
