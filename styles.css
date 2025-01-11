@@ -15,7 +15,7 @@
     gap: 10px;
 }
 .nav_logo img {
-    height: 25px; /* Adjust height based on your design */
+    height: 30px; /* Adjust height based on your design */
     width: auto; /* Maintain aspect ratio */
     margin-left: 20px;
 }
@@ -25,4 +25,36 @@
     text-decoration: none;
     margin-left: 20px;
     font-size: 0.9rem;
+    margin-right: 20px;
+}
+
+/* Hero section */
+.hero_section {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 20px;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.hero_text {
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.hero_section button {
+    background-color: #3882F6;
+    color: azure;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero_section button:hover {
+    background-color: #2563EB; /* Darker blue on hover */
 }
