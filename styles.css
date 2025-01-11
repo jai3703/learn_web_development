@@ -71,3 +71,30 @@
     margin-right: 30px;
 
 }
+
+/* Quote section */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    flex-direction: column;
+
+}
+
+#main_quote {
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+#sub_quote {
+    margin-right: 25%;
+    margin-left: 60%;
+    color: #1f2937;
+    font-size: 20px;
+    font-weight: 600;
+}
