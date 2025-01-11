@@ -1,9 +1,55 @@
-h1 {
-    color:brown;
-    background-color: beige;
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
 }
 
-img {
-    height: auto;
-    width: auto;
-  }
+/* Navigation Bar */
+.nav_bar {
+    background-color: #1F2937;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 equal columns */
+    align-items: center;
+    padding: 5px;
+    height: 20px;
+}
+
+/* Navigation Bar Items */
+.nav_bar div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Logo Styling */
+.logo {
+    width: 20px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Prevent distortion */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+/* Header Section */
+.header {
+    background-color: #1F2937;
+    height: 100px; /* Placeholder height */
+}
+
+/* Main Section */
+.main_section {
+    background-color: wheat;
+    padding: 20px;
+}
+
+/* Links Styling */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* h1 Example */
+h1 {
+    color: white;
+}
